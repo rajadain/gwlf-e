@@ -762,7 +762,7 @@ def WriteOutput(z):
     SumWxYrEnd = z.WxYrEnd
 
     # Which land use sources to include in the totals.
-    sources = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+    sources = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
 
     # ha
     AreaTotal = sum(z.Area[l] for l in sources)
